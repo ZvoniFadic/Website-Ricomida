@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    font-family: 'Cabin', sans-serif;
+}
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+.navbar-brand {
+    font-family: lobster;
+    font-size: 2em;
+}
+
+.border-top {
+    height: 0.2em;
+}
+
+/* tamaño de texto header sm */
+@media (min-width: 992px) {
+    .titulo-1 {
+      font-size: 1.7em;
+    }
+  }
+
+ .titulo-1 h1{
+     font-size: 2.0em;
+ }
+
+ .titulo-2 h2 {
+    font-size: 2.0em;
+}
+
+.botones {
+    font-size: 0.8em;
+}
+
+@media (min-width: 768px) {
+    .botones {
+      font-size: 1em;
+    }
+  } 
+
+.carousel-indicators {
+    bottom: -20%;
+}
+     
+.carousel-indicators li { 
+    width: 10px;
+    height: 10px; 
+    border-radius: 50%; 
+} 
+
+@media (max-width: 768px) {
+    .borde-receta {
+      display: none;
+    }
+  }
+
+.linea-abajo {
+    width: 30%;
+}
+
+@media (max-width: 768px) {
+    .linea-abajo {
+      display: none;
+    }
+  }
+  
+.receta-1 li {
+    font-size: 1.1em;
+}
+
+.receta-2 li {
+    font-size: 1.1em;
+    padding-top:1em ;
+}
+
+@media (max-width: 768px) {
+    .linea-abajo {
+      display: none;
+    }
+  }
+
+.ingredientes p {
+    font-size: 1.2em;
+}
+
+.formulario-1 {
+    background-color: #dc3545;
+}
+
+.formulario-1 h2 {
+    padding-top: 2.5em;
+    font-size: 2.3em;
+}
+
+@media (max-width: 768px) {
+    .suscribete {
+      font-size: 0.9em;
+    }
+  }
+
+@media (max-width: 768px) {
+    .linea-2 {
+      font-size: 1.4em;
+      padding-top: 1.2em;
+    }
+  }
+
+.stilo-logo {
+    font-family: lobster;
+}
+
+footer {
+    font-family: lobster;
+    font-size: 2em;
+}
